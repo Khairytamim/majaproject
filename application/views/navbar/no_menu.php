@@ -1,14 +1,14 @@
 <body>
 	
 		<div class="navbar-fixed" style="height:3.7em;">
-			<nav style="background-color: #00a9d3; height:3.7em; border-bottom: solid 0.35em #0f8cab"><!--#003a75-->
+			<nav style="background-color: #E91D63; height:3.7em; border-bottom: solid 0.35em #e393b0"><!--#003a75-->
 			  <div class="container">
 				 <div class="nav-wrapper" style="line-height:3.4em">
 				 	<a href="" data-activates="slide-out" class="button-collapse"><img style="width:40px" src="<?php echo base_url();?>assets/assets/menu.svg"></a>
-					<a href="<?php echo base_url();?>home" class="brand-logo"><img src="<?php echo base_url();?>assets/img/logo_seve/logo2-01.png" style="margin-top:0.1em; width:60px"></a>         
+					<a href="<?php echo base_url();?>home" class="brand-logo"><img src="<?php echo base_url();?>assets/img/logo_seve/logo-maja_2.png" style="margin-top:0.1em; width:60px"></a>         
 						<ul class="left hide-on-med-and-down" >
 						
-						<li><a onclick="openNav()" style="font-size:1em;margin-left:90px; margin-top:10px; margin-bottom:5px; height: 32px; font-size:0.9em; background-color: #0f8cab; "><b>☰ KATEGORI</b></a></li>
+						<li><a onclick="openNav()" style="font-size:1em;margin-left:90px; margin-top:10px; margin-bottom:5px; height: 32px; font-size:0.9em; background-color: #e393b0; "><b>☰ KATEGORI</b></a></li>
 						<li style="padding: -10px 1em 0 1em; background-color:rgba(255,255,255,1); margin-top:10px; margin-bottom:5px; height: 32px;">
 						    		<form class="hidden-xs hidden-app" action="seveid.com">
 			                                		<input type="text" style="border-bottom:none; height:18px;transition:none; width: 300px; color: gray" name="q" class="form-control" placeholder="Search"/>

@@ -11,6 +11,15 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', function() {
+	echo'mayanlah buat home pertama ini haha';
 });
+
+Route::get('home', function() {
+	echo'halaman home nih coy!!!';
+});
+
+Route::controllers([
+	'auth' => 'Auth\AuthController',
+	'password' => 'Auth\PasswordController',
+]);

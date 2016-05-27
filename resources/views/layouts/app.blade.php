@@ -40,7 +40,7 @@
 
                 <!-- Branding Image -->
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    <img src="{{URL::asset('/image/logo-maja_small.png')}}" alt="logo" style="margin-top:-0.8em">
+                    <img src="{{URL::asset('/image/logo-maja_small.png')}}" alt="logo" style="margin-top:-0.8em" >
                 </a>
             </div>
 

@@ -11,15 +11,10 @@
 |
 */
 
-Route::get('/', function() {
-	echo'mayanlah buat home pertama ini haha';
+Route::get('/', function () {
+    return view('welcome');
 });
 
-Route::get('home', function() {
-	echo'halaman home nih coy!!!';
-});
+Route::auth();
 
-Route::controllers([
-	'auth' => 'Auth\AuthController',
-	'password' => 'Auth\PasswordController',
-]);
+Route::get('/home', 'HomeController@index');

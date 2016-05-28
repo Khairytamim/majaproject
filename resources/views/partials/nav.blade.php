@@ -18,9 +18,9 @@
                         <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         @if(Auth::check() && Auth::isAdmin())
-                        <li><a href="/books/">Books</a></li>
+                        <li><a href="/books/">Products</a></li>
                         @endif
-                        <li><a href="/books/create">Create Book</a></li>
+                        <li><a href="/books/create">Upload Product</a></li>
                     </ul>
                 </li>
                 <!------------------------------------End-------------------------------------->

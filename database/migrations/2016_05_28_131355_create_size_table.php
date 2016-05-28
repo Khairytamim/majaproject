@@ -14,7 +14,7 @@ class CreateSizeTable extends Migration
     {
         Schema::create('size', function (Blueprint $table) {
             $table->increments('id_size');
-            $table->integer('product_id')->unsigned();
+            $table->integer('product_id')->unsigned()->index();
             $table->foreign('product_id')->references('id_product')->on('products')->onDelete('cascade');
 
             $table->string('size');

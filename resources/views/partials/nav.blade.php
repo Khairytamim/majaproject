@@ -8,13 +8,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">Home</a>
+            <a class="navbar-brand" href="/"><img src="{{url::asset('/images/majawhite.png')}}" style="width:55px;height:30px"alt=""></a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
                 {{----------------Navigation Bar With Dropdown Books-----------------------------}}
                 <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Books
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Products
                         <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         @if(Auth::check() && Auth::isAdmin())
@@ -26,11 +26,11 @@
                 <!------------------------------------End-------------------------------------->
                 {{----------------Navigation Bar With Dropdown Authors-----------------------------}}
                 <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Authors
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Brands
                         <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="/authors/">Authors</a></li>
-                        <li><a href="/authors/create">Create Author</a></li>
+                        <li><a href="/authors/">List Brands</a></li>
+                        <li><a href="/authors/create">Add Brand</a></li>
                     </ul>
                 </li>
                 <!--------------------------------------End------------------------------------->

@@ -31,12 +31,12 @@
         <title>Maja - a loveable fashion marketplace</title>
     </head>
     <body>
+        <div class="container">
         @include('partials.nav')
         @include('partials.flash')
-        @include('partials.categoryNav')
-        @include('partials.carouselHolder')
 
         @yield('content')
+        </div>
     </div>
    </div>
 </div>

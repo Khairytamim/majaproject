@@ -9,7 +9,7 @@
     <div class="col-sm-4 col-lg-4 col-md-4">
         <div class="thumbnail" style="margin-top:20px">
             {{--<img src="http://placehold.it/320x150" alt=""> --}}
-            <a href="/books/{{$book->id}}"><img src="/{{$book->smallImage_path}}" alt=""></a>
+            <a href="/books/{{$book->id}}"><img src="/{{$book->smallImage_path}}" style="height:100%" alt=""></a>
             <div class="caption">
                 <h4 class="pull-right">&euro;{{$book->price}}</h4>
                     <h4><a href="/books/{{$book->id}}">{{$book->book_title}}</a></h4>

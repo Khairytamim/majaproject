@@ -21,7 +21,7 @@
                         </div>
                     </div>
                     <div class="item">
-                        <img class="slide-image" src="/images/528509-book.jpg" alt="">
+                        <img class="slide-image" src="/images/maja_slider.jpg" alt="">
                     </div>
                     <div class="item">
                         {{--  <img class="slide-image" src="https://placeholdit.imgix.net/~text?txtsize=75&txt=800%C3%97300&w=850&h=220" alt="">   --}}

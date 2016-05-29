@@ -69,6 +69,7 @@ class AuthorsController extends Controller {
      */
     public function edit($id) {
         //
+            return view('author.edit');
     }
 
     /**

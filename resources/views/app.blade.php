@@ -50,7 +50,7 @@
         <div class="row">
             <div class="col-lg-12">
                 @yield('footer')
-                <p>Copyright &copy; Your Website 2015</p>
+                <p>Copyright &copy; majaproject 2016</p>
             </div>
         </div>
     </footer>

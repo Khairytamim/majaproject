@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateAuthorsTable extends Migration
+class CreateShopTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,11 +12,9 @@ class CreateAuthorsTable extends Migration
      */
     public function up()
     {
-        Schema::create('authors', function (Blueprint $table) {
-            $table->increments('id');
-            $table->string('author_name');
-
-            $table->timestamps();
+        Schema::create('shop', function (Blueprint $table) {
+            $table->increments('shop_id');
+            $table->string('shop');
         });
     }
 
@@ -27,6 +25,6 @@ class CreateAuthorsTable extends Migration
      */
     public function down()
     {
-        Schema::drop('authors');
+        Schema::drop('shop');
     }
 }

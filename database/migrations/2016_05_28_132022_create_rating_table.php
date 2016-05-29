@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateMessagesTable extends Migration
+class CreateRatingTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,19 +12,15 @@ class CreateMessagesTable extends Migration
      */
     public function up()
     {
-        Schema::create('messages', function (Blueprint $table)
-        {
-            $table->increments('id');
-            $table->text('message');
-
-            $table->integer('book_id')->unsigned()->index();
-            $table->foreign('book_id')->references('id')->on('books')->onDelete('cascade');
+        Schema::create('rating', function (Blueprint $table) {
+            $table->increments('id_rating');
+            $table->integer('rating');
+            
+            $table->integer('product_id')->unsigned()->index();
+            $table->foreign('product_id')->references('id_product')->on('products')->onDelete('cascade');
 
             $table->integer('user_id')->unsigned()->index();
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
-
-            $table->timestamps();
-            $table->timestamp('published_at');
         });
     }
 
@@ -35,6 +31,6 @@ class CreateMessagesTable extends Migration
      */
     public function down()
     {
-        Schema::drop('messages');
+        Schema::drop('rating');
     }
 }

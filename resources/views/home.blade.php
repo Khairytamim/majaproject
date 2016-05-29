@@ -7,7 +7,7 @@
     @include('partials.carouselHolder')
     @foreach($books as $key=>$book)
     <div class="col-sm-4 col-lg-4 col-md-4">
-        <div class="thumbnail">
+        <div class="thumbnail" style="margin-top:20px">
             {{--<img src="http://placehold.it/320x150" alt=""> --}}
             <a href="/books/{{$book->id}}"><img src="/{{$book->smallImage_path}}" alt=""></a>
             <div class="caption">

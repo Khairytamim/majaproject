@@ -1,5 +1,5 @@
 {{--  ------------------------NavBar  ------------------------------------- --}}
-<nav class="navbar navbar-inverse navbar-fixed-top">
+<nav class="navbar navbar-inverse navbar-fixed-top" style="height:15px" >
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/"><img src="{{url::asset('/images/majawhite.png')}}" style="width:55px;height:30px"alt=""></a>
+            <a class="navbar-brand" href="/" style="margin-top:-5px"><img src="{{url::asset('/images/majawhite.png')}}" style="width:55px;height:30px"alt=""></a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
@@ -49,7 +49,7 @@
             </ul>
             <!--------------------------------------Search------------------------------------->
 
-            <div class="col-sm-3 col-md-3">
+            <div class="col-sm-3 col-md-3" style="margin-top:-5px">
                 {!! Form::open(['url'=>'/search','method'=>'POST','class'=>'navbar-form','role'=>'search']) !!}
                 <div class="input-group">
                     {!! Form::text('search',null,['class'=>'form-control','placeholder'=>'Search']) !!}

@@ -39,7 +39,7 @@
              @endforeach
              <tr>
                     <td colspan="4" align="right"></td>
-                    <td>Total:{{Cart::total()}}&euro;</td>
+                    <td>Total:Rp {{Cart::total()}}</td>
              </tr>
              <tr>
                 <td colspan="1" align="right"> <a href="/"> <button class="btn btn-lg btn-default" type="button"><span>Continue Shopping</span></button> </a></td>

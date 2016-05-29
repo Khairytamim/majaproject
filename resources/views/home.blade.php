@@ -11,7 +11,7 @@
             {{--<img src="http://placehold.it/320x150" alt=""> --}}
             <a href="/books/{{$book->id}}"><img src="/{{$book->smallImage_path}}" style="height:100%" alt=""></a>
             <div class="caption">
-                <h4 class="pull-right">&euro;{{$book->price}}</h4>
+                <h4 class="caption">Rp {{$book->price}}</h4>
                     <h4><a href="/books/{{$book->id}}">{{$book->book_title}}</a></h4>
                     <p>{{$book->smallDescription($book->id)}}...</p>
             </div>

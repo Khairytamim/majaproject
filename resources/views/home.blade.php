@@ -5,7 +5,7 @@
 <div class="row">
     @include('partials.categoryNav')
     @include('partials.carouselHolder')
-    @foreach($books as $key=>$book)
+    <!--@foreach($books as $key=>$book)-->
     <div class="col-sm-4 col-lg-4 col-md-4">
         <div class="thumbnail" style="margin-top:20px">
             {{--<img src="http://placehold.it/320x150" alt=""> --}}
@@ -25,7 +25,7 @@
             </div>
         </div>
     </div>
-    @if(($key+1)%3==0)
+    <!--@if(($key+1)%3==0)-->
 </div>
 <div class="row">
     @endif

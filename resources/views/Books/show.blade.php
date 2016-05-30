@@ -9,7 +9,7 @@
         <div class="bookId" style="display: none;">{{$book->id}}</div>
             <!-- Product information for small screens -->
             <div class="main-imgs clearfix">
-                <a href="/books/{{$book->largeImage_path}}"><img id="img1" src="/books/{{ $book->largeImage_path}}" alt="/books/{{$book->largeImage_path}}" class="main-img img-responsive"></a>
+                <a href="/books/{{$book->largeImage_path}}"><img id="img1" src="/{{ $book->largeImage_path}}" alt="/books/{{$book->largeImage_path}}" class="main-img img-responsive"></a>
             </div>
             <div class="new row"></div>
                 <div class="col-sm-2" id="RatingAddIcon">
@@ -67,9 +67,9 @@
 
             <!-- Product description etc -->
             <ul class="nav nav-tabs" id="product-tabs">
-                <li class="active"><a href="#description">Description</a></li>
-                <li class=""><a href="#care">INFO 2</a></li>
-                <li class=""><a href="#sizing">INFO 3</a></li>
+                <li class="active"><a href="#description">Descriptions</a></li>
+                <!--li class=""><a href="#care">INFO 2</a></li>
+                <li class=""><a href="#sizing">INFO 3</a></li-->
             </ul>
             <div class="tab-content">
                 <div class="tab-pane active" id="description">

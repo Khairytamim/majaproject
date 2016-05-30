@@ -191,8 +191,8 @@ class BooksController extends Controller {
         if (Input::file('image')) {
             $smallImagePath = 'images/smallImages/' . Auth::id() . '_' . date("Y-m-d_-_H_i_s") . '____' . $smallImage->getClientOriginalName();
             $largeImagePath = 'images/largeImages/' . Auth::id() . '_' . date("Y-m-d_-_H_i_s") . '____' . $largeImage->getClientOriginalName();
-            Image::make($smallImage)->resize(330, 220)->save($smallImagePath);
-            Image::make($largeImage)->resize(400, 370)->save($largeImagePath);
+            Image::make($smallImage)->resize(324, 330)->save($smallImagePath);
+            Image::make($largeImage)->resize(423, 563)->save($largeImagePath);
         }
         $request['smallImage_path'] = $smallImagePath;
         $request['largeImage_path'] = $largeImagePath;

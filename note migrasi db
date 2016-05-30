@@ -1,0 +1,5 @@
+Untuk migrasi db ke mysql caranya :
+1. file2 2016_... diluar itu, yang aku kasih commit migrasi db, kopikan ke /database/migrations/ sebelumnya file yang lama dihapus dulu
+2. edit config/database.php, default koneksinya ke mysql
+  'default' => env('DB_CONNECTION', 'mysql'),
+3. sesuaikan .env ke db kalian

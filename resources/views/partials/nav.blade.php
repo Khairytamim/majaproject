@@ -29,8 +29,8 @@
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Brands
                         <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="/authors/">List Brands</a></li>
-                        <li><a href="/authors/create">Add Brand</a></li>
+                            <li><a href="/authors/create">Add Brand</a></li>
+                            <li><a href="/authors/">List Brands</a></li>
                     </ul>
                 </li>
                 <!--------------------------------------End------------------------------------->
@@ -52,7 +52,7 @@
             <div class="col-sm-3 col-md-3">
                 {!! Form::open(['url'=>'/search','method'=>'POST','class'=>'navbar-form','role'=>'search']) !!}
                 <div class="input-group">
-                    {!! Form::text('search',null,['class'=>'form-control','placeholder'=>'Search']);!!}
+                    {!! Form::text('search',null,['class'=>'form-control','placeholder'=>'Search']) !!}
                     <div class="input-group-btn">
                         {!! Form::button('<span class="glyphicon glyphicon-search"></span>',[
                         'class'=>'btn btn-default',
@@ -64,8 +64,8 @@
             <!--------------------------------------End-------------------------------------->
             <ul class="nav navbar-nav navbar-right">
                 @if(Auth::check())
-                <li><a href="#">{{Auth::user()->username }}</a></li>
-                <li><a href="/auth/logout">Logout</a></li>
+                    <li><a href="#">{{Auth::user()->username }}</a></li>
+                    <li><a href="/auth/logout">Logout</a></li>
                 @else
                     <li><a href="/auth/register">Register</a></li>
                     <li><a href="/auth/login">Login</a></li>

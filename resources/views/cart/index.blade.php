@@ -43,7 +43,7 @@
                     <td>Total:{{Cart::total()}}&euro;</td>
              </tr>
              <tr>
-                <td colspan="5" align="right"> <a href="/"> <button class="btn btn-lg btn-default" type="button"><span class="glyphicon glyphicon-arrow-left">Continue Shopping</span></button> </a></td>
+                <td colspan="5" align="right"> <a href="/"> <button class="btn btn-lg btn-default" type="button"><span class="glyphicon glyphicon-arrow-left">&nbsp;Continue Shopping</span></button> </a></td>
                 <td>{!! Form::open(['method' => 'POST','url' => ['payment']]) !!}
                       {!! Form::button('<span class="glyphicon glyphicon-eur">&nbsp;Checkout with PayPal</span>',[
                                                          'class'=>'btn btn-lg btn-success',

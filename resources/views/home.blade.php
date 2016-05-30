@@ -1,6 +1,7 @@
 @extends('app')
 @section('content')
 
+
 <div class="row">
     @foreach($books as $key=>$book)
 
@@ -9,7 +10,7 @@
             {{--<img src="http://placehold.it/320x150" alt=""> --}}
             <a href="/books/{{$book->id}}"><img src="/{{$book->smallImage_path}}" alt=""></a>
             <div class="caption">
-                <h4 class="pull-right">Rp {{$book->price}}</h4>
+                <h4 class="pull-right">&euro;{{$book->price}}</h4>
 
                     <h4><a href="/books/{{$book->id}}">{{$book->book_title}}</a>
                     </h4>

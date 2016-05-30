@@ -1,6 +1,6 @@
 @extends('app')
 @section('content')
-<h1>Authors</h1>
+<h1>Brands</h1>
 <hr>
 
 <div class="list-group">

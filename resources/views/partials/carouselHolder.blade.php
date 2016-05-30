@@ -10,13 +10,11 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img class="slide-image" src="/images/maja_slider.jpg" alt="maja">
+                        <img class="slide-image" src="/images/maja_slider.jpg" alt="">
                     </div>
                     <div class="item">
-                        {{--  <img class="slide-image" src="https://placeholdit.imgix.net/~text?txtsize=75&txt=800%C3%97300&w=850&h=220" alt="">   --}}
-                        <img class="slide-image" src="/images/slider2.jpg" alt="maja2">
+                        <img class="slide-image" src="/images/slider2.jpg" alt="">
                     </div>
-                </div>
                 <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
                     <span class="glyphicon glyphicon-chevron-left"></span>
                 </a>

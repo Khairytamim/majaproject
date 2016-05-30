@@ -26,7 +26,6 @@ class CreateBookRequest extends Request
     {
         return [
             'book_title'=>'required|min:3|regex:/^[a-zA-Z0-9 #.]+$/',
-            'url'=>'required|regex:/^[www.][a-zA-z0-9 \/&@+#%?=~_\!:,.-]*[-a-z0-9+&@#\/%=~_-]+$/',
             'image'=>'required|image',
             'price'=>'required|numeric|min:0.1', // numeric|min:0.1
             'description'=>'required|min:45', // |regex:/^[a-zA-Z0-9?$@#()\'!,+\-=_:.&€£*%\s "]+$/',

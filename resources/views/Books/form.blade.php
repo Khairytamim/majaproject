@@ -11,17 +11,9 @@
     </div>
 </div>
 
-
 <div class="col-sm-12 col-md-12">
     <div class="form-group">
-        {!! Form::label('text', 'Gender') !!}
-        {!!  Form::select('select', ['men' => 'Men', 'women' => 'Women'],  'men', ['class' => 'form-control' ]) !!}
-    </div>
-</div>
-
-<div class="col-sm-12 col-md-12">
-    <div class="form-group">
-        {!! Form::label('Body','Description') !!}
+        {!! Form::label('Body','Descriptions') !!}
         {!! Form::textarea('description',null,['class'=>'form-control']) !!}
     </div>
 </div>

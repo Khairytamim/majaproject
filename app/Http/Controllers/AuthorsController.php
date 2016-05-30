@@ -41,7 +41,7 @@ class AuthorsController extends Controller {
     public function store(CreateAuthorsRequest $request) {
         $input = $request->all();
         Author::create($input);
-        Flash::success('Author is create ');
+        Flash::success('Brand has been created');
         return redirect('authors');
     }
 

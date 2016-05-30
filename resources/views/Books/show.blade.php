@@ -92,7 +92,7 @@
 
 <div class="row">
     <div class="col-sm-9">
-        <h3>User Comment Example</h3>
+        <h3>Comments</h3>
     </div><!-- /col-sm-12 -->
 </div><!-- /row -->
 @foreach($message as $messages)

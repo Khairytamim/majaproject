@@ -12,19 +12,18 @@
     {!! Form::textarea('description',null,['class'=>'form-control']) !!}
 </div>
 <div class="form-group">
-    {!! Form::label('labelAmount','Price:') !!}
+    {!! Form::label('labelAmount','Price') !!}
     <div class="input-group">
       <div class="input-group-addon">Rp</div>
       {!! Form::text('price',null,['class'=>'form-control','placeholder'=>"150000"]) !!}
-      <div class="input-group-addon">.00</div>
     </div>
   </div>
 <div class="form-group">
-    {!! Form::label('text', 'Gender')    !!}
-    {!! Form::text('url',null,['class'=>'form-control','placeholder'=>'Men']) !!}
+    {!! Form::label('text', 'Gender') !!}
+    {!!  Form::select('select', ['men' => 'Men', 'women' => 'Women'],  'men', ['class' => 'form-control' ]) !!}
 </div>
 <div class="form-group">
-    {!! Form::label('categories', 'Categories:') !!}
+    {!! Form::label('categories', 'Category') !!}
     {!! Form::select('categories[]', $categories, $boosCategorieList , ['class'=>'form-control','id'=>'authors_list','multiple']) !!}
 </div>
 

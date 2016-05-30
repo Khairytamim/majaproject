@@ -66,7 +66,9 @@
                 @if(Auth::check())
                 <li><a href="#">{{Auth::user()->username }}</a></li>
                 <li><a href="/auth/logout">Logout</a></li>
-                @else <li><a href="/auth/login">Login</a></li>
+                @else
+                    <li><a href="/auth/register">Register</a></li>
+                    <li><a href="/auth/login">Login</a></li>
                 @endif
                 <li>
                     <a href="/carts"><span aria-hidden="true" class="glyphicon glyphicon-shopping-cart">{{Cart::count()}}</span> &nbsp;Cart</a>

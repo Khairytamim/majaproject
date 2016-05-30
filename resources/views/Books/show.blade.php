@@ -9,7 +9,7 @@
         <div class="bookId" style="display: none;">{{$book->id}}</div>
             <!-- Product information for small screens -->
             <div class="main-imgs clearfix">
-                <a href="{{$book->largeImage_path}}" title="BeachFront Frog swimsuit: view 1"><img id="img1" src="/{{$book->largeImage_path}}" alt="BeachFront Frog swimsuit" class="main-img img-responsive"></a>
+                <a href="/books/{{$book->largeImage_path}}"><img id="img1" src="/books/{{ $book->largeImage_path}}" alt="/books/{{$book->largeImage_path}}" class="main-img img-responsive"></a>
             </div>
             <div class="new row"></div>
                 <div class="col-sm-2" id="RatingAddIcon">

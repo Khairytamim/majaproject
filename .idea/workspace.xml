@@ -42,7 +42,7 @@
       <file leaf-file-name="register.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
+            <state relative-caret-position="-322">
               <caret line="31" column="71" selection-start-line="31" selection-start-column="71" selection-end-line="31" selection-end-column="71" />
               <folding />
             </state>
@@ -611,12 +611,12 @@
       <workItem from="1464520090839" duration="2514000" />
       <workItem from="1464532414112" duration="7447000" />
       <workItem from="1464586494067" duration="2328000" />
-      <workItem from="1464590668803" duration="5544000" />
+      <workItem from="1464590668803" duration="5610000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20042000" />
+    <option name="totallyTimeSpent" value="20108000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1076,7 +1076,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
+        <state relative-caret-position="-322">
           <caret line="31" column="71" selection-start-line="31" selection-start-column="71" selection-end-line="31" selection-end-column="71" />
           <folding />
         </state>

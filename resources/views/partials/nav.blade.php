@@ -64,7 +64,7 @@
             <!--------------------------------------End-------------------------------------->
             <ul class="nav navbar-nav navbar-right">
                 @if(Auth::check())
-                    <li><a href="#">{{Auth::user()->username }}</a></li>
+                    <li><a href="/">{{Auth::user()->username }}</a></li>
                     <li><a href="/auth/logout">Logout</a></li>
                 @else
                     <li><a href="/auth/register">Register</a></li>

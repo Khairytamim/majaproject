@@ -100,7 +100,7 @@ class BooksController extends Controller {
      * @param CreateIdRequest|int $id
      * @return Response
      */
-    public function update(CreateBookRequest $request, CreateIdRequest $id) {
+    public function update(CreateBookRequest $request, $id) {
 
         $request = $this->imagesInsert($request);
 
